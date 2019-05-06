@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'akzidenzgroteskregularbold';
+    src: url('../fonts/AkzidenzGroteskPro-Bold.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Bold.eot') format('embedded-opentype'),
+         url('../fonts/AkzidenzGroteskPro-Bold.woff') format('woff'),
+         url('../fonts/AkzidenzGroteskPro-Bold.tff') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akzidenzgroteskregularlight';
+    src: url('../fonts/AkzidenzGroteskPro-Light.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Light.eot') format('embedded-opentype'),
+         url('../fonts/AkzidenzGroteskPro-Light.woff') format('woff'),
+         url('../fonts/AkzidenzGroteskPro-Light.tff') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'linotype-320';
+    src: url('../fonts/ltunivers-320-condlight.ttf');
+    src: url('../fonts/ltunivers-320-condlight.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
