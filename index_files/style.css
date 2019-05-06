@@ -328,7 +328,7 @@ strong {
 }
 
 .ranking .table .header .cell.sort {
-  padding: 10px 25px;
+  padding: 4px 25px;
   position: relative;
 }
 
@@ -780,7 +780,7 @@ strong {
 }
 
 
-/* Détail partenaire
+/* DÃ©tail partenaire
 --------------------------------------------------------*/
 .detail_part h4 {
   font-size: 1.8em;
@@ -937,7 +937,7 @@ strong {
 }
 
 
-/* Détail News
+/* DÃ©tail News
 --------------------------------------------------------*/
 .thumb_holder,
 .thumb_holder_right {
@@ -1030,7 +1030,7 @@ article h4 {
 
 .widget ul li::before {
   color: #47516e;
-  content: "◆";
+  content: "â—†";
   font-size: 1em;
   margin-right: 6px;
 }
@@ -1360,7 +1360,7 @@ article h4 {
 }
 
 @media (max-width: 700px) {
-  /** Responzivní tabulky */
+  /** ResponzivnÃ­ tabulky */
   .ranking .table-row .cell:nth-of-type(2), .ranking .table-row .cell:nth-of-type(3) {
     display: none;
   }
