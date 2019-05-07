@@ -96,10 +96,6 @@ p {
   line-height: 24px;
 }
 
-ul {
-  color:#615e58;
-}
-
 a {
   color:#1d89ce;
 }
@@ -972,7 +968,7 @@ article h4 {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #363B40;
-  font-size: 0.9em;
+  font-size: 0.75em;
   padding: 15px 0;
   text-align: center;
 }
@@ -1399,12 +1395,24 @@ article h4 {
 
 /* New Styles
 --------------------------------------------------------*/
+body {
+    color: #838999;;
+}
+
+h1, h2{
+ margin-top: 1.5em;  
+}
+
 .ratingtable {
   background-color: #f3f3f9; 
 }
 
 .navbar {
   margin-bottom: 0;
+}
+
+.bg-blue{
+  background-color: #1d89ce;
 }
 
 .btn-primary {
@@ -1423,6 +1431,6 @@ article h4 {
   background-color: #c5ccde;
   width: 8em;
   height: 2px;
-  margin: 1em auto;
+  margin: 1em auto 1.5em auto;
   border-radius: 1px;
 }
