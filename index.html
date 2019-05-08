@@ -74,7 +74,36 @@
       /* ]]> */
     </script>
     <script type="text/javascript" src="//c.imedia.cz/js/retargeting.js"></script>
-   </head>
+    <script type="text/javascript">
+    function bemobCb(params) {
+        var e1 = document.querySelectorAll('.cta-url-1');
+        for (var i = 0; i < e1.length; i++) {
+            e1[i].href = params.ctaUrl.replace('%%OFFER_NUMBER%%', '1');
+        }
+        var e2 = document.querySelectorAll('.cta-url-2');
+        for (var i = 0; i < e2.length; i++) {
+            e2[i].href = params.ctaUrl.replace('%%OFFER_NUMBER%%', '2');
+        }
+        var e3 = document.querySelectorAll('.cta-url-3');
+        for (var i = 0; i < e3.length; i++) {
+            e3[i].href = params.ctaUrl.replace('%%OFFER_NUMBER%%', '3');
+        }
+        var e4 = document.querySelectorAll('.cta-url-4');
+        for (var i = 0; i < e4.length; i++) {
+            e4[i].href = params.ctaUrl.replace('%%OFFER_NUMBER%%', '4');
+        }
+        var e5 = document.querySelectorAll('.cta-url-5');
+        for (var i = 0; i < e5.length; i++) {
+            e5[i].href = params.ctaUrl.replace('%%OFFER_NUMBER%%', '5');
+        }
+        var e6 = document.querySelectorAll('.cta-url-6');
+        for (var i = 0; i < e6.length; i++) {
+            e6[i].href = params.ctaUrl.replace('%%OFFER_NUMBER%%', '6');
+        }
+    }
+    </script>
+    <script type="text/javascript">!function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="http://100track.org/landing/dacbdf12-89a2-43db-bc73-0879409138f6?callback=bemobCb&rule=1&path=1&landing=1&"+window.location.search.substring(1);var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();</script><noscript><img src="http://100track.org/landing/dacbdf12-89a2-43db-bc73-0879409138f6?rule=1&path=1&landing=1" alt=""></noscript>
+</head>
 
 <body class="home page page-id-4 page-template page-template-page-home page-template-page-home-php">
     <header class="header_site">
