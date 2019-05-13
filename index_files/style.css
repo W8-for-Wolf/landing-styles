@@ -145,7 +145,7 @@ strong {
 @media (min-width: 768px) {
   .header_bg {
     background-position: 50% 0;
-    height: 280px;
+    height: 160px;
   }
 }
 
@@ -167,7 +167,7 @@ strong {
 @media (min-width: 768px) {
   .header_site .logo_container a {
     height: 220px;
-    margin: 2em 0 0 4em;
+    margin: 1em 0 0 1em;
   }
 }
 
